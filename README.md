@@ -2,7 +2,7 @@
 
 ## ENG  
 ---  
-This project is part of a course I took from the [SergieCode](https://www.youtube.com/watch?v=I17ln313Pjk&t=10479s) channel. It contains a fake REST API, allowing you to set up a mock server from a JSON file containing an array of objects.  
+This project is part of a course I took from the [SergieCode](https://www.youtube.com/watch?v=I17ln313Pjk&t=10479s) channel. Contains a web server built with express and nodejs.
 
 ---  
 ### HOW TO USE IT?  
@@ -20,7 +20,7 @@ This project is part of a course I took from the [SergieCode](https://www.youtub
 
 ## ESP
 ---
-Este proyecto es parte de un curso que hice del canal de [SergieCode](https://www.youtube.com/watch?v=I17ln313Pjk&t=10479s). Contiene una API-Rest falsa, con la cual podra armar un server mock desde un json que contenga array de objetos.
+Este proyecto es parte de un curso que hice del canal de [SergieCode](https://www.youtube.com/watch?v=I17ln313Pjk&t=10479s). Contiene un servidor web construido con express y nodejs.
 
 ---
 ### ¿COMO USARLO?
