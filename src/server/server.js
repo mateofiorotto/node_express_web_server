@@ -1,9 +1,16 @@
 // Usaremos un framework para node, EXPRESSJS
-const express = require('express')
-const path = require('path')
+// const express = require('express')
+// const path = require('path')
+
+import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url'; // agregado para que funcione dirname
+
+const __filename = fileURLToPath(import.meta.url); // agregado para que funcione dirname
+const __dirname = path.dirname(__filename); // agregado para que funcione dirname
 
 //iniciamos el server y le pasamos options
-const startServer = (options) => {
+export const startServer = (options) => {
     const { port, public_path = 'public'} = options
     // console.log(port)
     // console.log(public_path)
@@ -29,6 +36,6 @@ const startServer = (options) => {
 
 }
 
-module.exports = {
-    startServer
-}
+// module.exports = {
+//     startServer
+// }

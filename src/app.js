@@ -1,6 +1,10 @@
 //forma vieja con require
-const { envs } = require('./config/env')
-const { startServer } = require('./server/server')
+// const { envs } = require('./config/env')
+// const { startServer } = require('./server/server')
+
+//forma nueva ecmascript6
+import { envs } from './config/env.js';
+import { startServer } from './server/server.js';
 
 const main = () => {
     startServer({
