@@ -10,7 +10,7 @@ This project is part of a course I took from the [SergieCode](https://www.youtub
 2. Open the project in your preferred IDE or code editor  
 3. Install the required packages and modules with `npm install`
 4. Define your environment variables with the .env template. (PORT 3000 RECOMMENDED AND PUBLIC FOLDER)
-5. Start the server with `npm start`  
+5. Start the server with `npm run dev`  
 ---  
 ### REQUIREMENTS  
 1. **NODE**  
