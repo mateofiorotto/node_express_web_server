@@ -28,7 +28,7 @@ Este proyecto es parte de un curso que hice del canal de [SergieCode](https://ww
 2. Abrir el proyecto en tu IDE o editor de codigo de preferencia
 3. Instala los paquetes y modulos requeridos con `npm install`
 4. Define tus variables de entorno con la plantilla .env. (PORT 3000 RECOMENDADO Y CARPETA PUBLIC)
-5. Ejecuta el servidor con `npm start`
+5. Ejecuta el servidor con `npm run dev`
 ---
 ### REQUERIMIENTOS
 1. **NODE**
